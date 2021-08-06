@@ -4,8 +4,9 @@
 
 // ignore_for_file: lines_longer_than_80_chars
 
+import 'package:flutter_sound_web/flutter_sound_web.dart';
 import 'package:shared_preferences_web/shared_preferences_web.dart';
-import 'package:soundpool_web/soundpool_web.dart';
+import 'package:text_to_speech_web/text_to_speech_web.dart';
 import 'package:url_launcher_web/url_launcher_web.dart';
 import 'package:wakelock_web/wakelock_web.dart';
 
@@ -13,8 +14,9 @@ import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 
 // ignore: public_member_api_docs
 void registerPlugins(Registrar registrar) {
+  FlutterSoundPlugin.registerWith(registrar);
   SharedPreferencesPlugin.registerWith(registrar);
-  SoundpoolPlugin.registerWith(registrar);
+  TextToSpeechWeb.registerWith(registrar);
   UrlLauncherPlugin.registerWith(registrar);
   WakelockWeb.registerWith(registrar);
   registrar.registerMessageHandler();

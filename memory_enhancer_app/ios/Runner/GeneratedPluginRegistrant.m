@@ -10,6 +10,12 @@
 @import flutter_inappwebview;
 #endif
 
+#if __has_include(<flutter_sound/FlutterSound.h>)
+#import <flutter_sound/FlutterSound.h>
+#else
+@import flutter_sound;
+#endif
+
 #if __has_include(<flutter_statusbarcolor_ns/FlutterStatusbarcolorPlugin.h>)
 #import <flutter_statusbarcolor_ns/FlutterStatusbarcolorPlugin.h>
 #else
@@ -28,6 +34,12 @@
 @import path_provider;
 #endif
 
+#if __has_include(<permission_handler/PermissionHandlerPlugin.h>)
+#import <permission_handler/PermissionHandlerPlugin.h>
+#else
+@import permission_handler;
+#endif
+
 #if __has_include(<porcupine/PorcupinePlugin.h>)
 #import <porcupine/PorcupinePlugin.h>
 #else
@@ -40,10 +52,10 @@
 @import shared_preferences;
 #endif
 
-#if __has_include(<soundpool/SoundpoolPlugin.h>)
-#import <soundpool/SoundpoolPlugin.h>
+#if __has_include(<text_to_speech/TextToSpeechPlugin.h>)
+#import <text_to_speech/TextToSpeechPlugin.h>
 #else
-@import soundpool;
+@import text_to_speech;
 #endif
 
 #if __has_include(<url_launcher/FLTURLLauncherPlugin.h>)
@@ -62,12 +74,14 @@
 
 + (void)registerWithRegistry:(NSObject<FlutterPluginRegistry>*)registry {
   [InAppWebViewFlutterPlugin registerWithRegistrar:[registry registrarForPlugin:@"InAppWebViewFlutterPlugin"]];
+  [FlutterSound registerWithRegistrar:[registry registrarForPlugin:@"FlutterSound"]];
   [FlutterStatusbarcolorPlugin registerWithRegistrar:[registry registrarForPlugin:@"FlutterStatusbarcolorPlugin"]];
   [FlutterVoiceProcessorPlugin registerWithRegistrar:[registry registrarForPlugin:@"FlutterVoiceProcessorPlugin"]];
   [FLTPathProviderPlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTPathProviderPlugin"]];
+  [PermissionHandlerPlugin registerWithRegistrar:[registry registrarForPlugin:@"PermissionHandlerPlugin"]];
   [PorcupinePlugin registerWithRegistrar:[registry registrarForPlugin:@"PorcupinePlugin"]];
   [FLTSharedPreferencesPlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTSharedPreferencesPlugin"]];
-  [SoundpoolPlugin registerWithRegistrar:[registry registrarForPlugin:@"SoundpoolPlugin"]];
+  [TextToSpeechPlugin registerWithRegistrar:[registry registrarForPlugin:@"TextToSpeechPlugin"]];
   [FLTURLLauncherPlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTURLLauncherPlugin"]];
   [WakelockPlugin registerWithRegistrar:[registry registrarForPlugin:@"WakelockPlugin"]];
 }

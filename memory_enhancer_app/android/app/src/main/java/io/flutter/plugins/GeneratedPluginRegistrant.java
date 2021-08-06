@@ -16,12 +16,14 @@ public final class GeneratedPluginRegistrant {
   public static void registerWith(@NonNull FlutterEngine flutterEngine) {
     ShimPluginRegistry shimPluginRegistry = new ShimPluginRegistry(flutterEngine);
     flutterEngine.getPlugins().add(new com.pichillilorenzo.flutter_inappwebview.InAppWebViewFlutterPlugin());
+    flutterEngine.getPlugins().add(new com.dooboolab.fluttersound.FlutterSound());
       com.sameer.flutterstatusbarcolor.flutterstatusbarcolor.FlutterStatusbarcolorPlugin.registerWith(shimPluginRegistry.registrarFor("com.sameer.flutterstatusbarcolor.flutterstatusbarcolor.FlutterStatusbarcolorPlugin"));
     flutterEngine.getPlugins().add(new ai.picovoice.flutter.voiceprocessor.FlutterVoiceProcessorPlugin());
     flutterEngine.getPlugins().add(new io.flutter.plugins.pathprovider.PathProviderPlugin());
+    flutterEngine.getPlugins().add(new com.baseflow.permissionhandler.PermissionHandlerPlugin());
     flutterEngine.getPlugins().add(new ai.picovoice.flutter.porcupine.PorcupinePlugin());
     flutterEngine.getPlugins().add(new io.flutter.plugins.sharedpreferences.SharedPreferencesPlugin());
-      pl.ukaszapps.soundpool.SoundpoolPlugin.registerWith(shimPluginRegistry.registrarFor("pl.ukaszapps.soundpool.SoundpoolPlugin"));
+    flutterEngine.getPlugins().add(new com.ixsans.text_to_speech.TextToSpeechPlugin());
     flutterEngine.getPlugins().add(new io.flutter.plugins.urllauncher.UrlLauncherPlugin());
     flutterEngine.getPlugins().add(new creativemaybeno.wakelock.WakelockPlugin());
   }
