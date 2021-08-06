@@ -4,17 +4,29 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="5257816e-82d7-436b-b9e4-31bea0cac47f" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="c74b0696-c80b-4e81-a69f-4fc3af706ecf" name="Default Changelist" comment="" />
+>>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< Updated upstream
   <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@C:\Users\nbsoc\.android\avd\Pixel_3a_API_30_x86.avd]" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1vb6P83zS1gdOBYoFpWnDDt7nVx" />
+=======
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="ProjectId" id="1uxfXGbW0b2jGaeiHDAfi4regPb" />
+>>>>>>> Stashed changes
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,6 +34,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+<<<<<<< Updated upstream
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/dart-sdk" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -88,21 +101,38 @@
     </configuration>
     <configuration default="true" type="FlutterRunConfigurationType" factoryName="Flutter">
       <option name="filePath" value="$PROJECT_DIR$/memory_enhancer_app/lib/main.dart" />
+=======
+    <property name="last_opened_file_path" value="$USER_HOME$/AndroidStudioProjects/flutter_hello" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="filePath" value="$PROJECT_DIR$/memory_enhancer_app/test/main_test.dart" />
+>>>>>>> Stashed changes
       <method v="2" />
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< Updated upstream
       <changelist id="5257816e-82d7-436b-b9e4-31bea0cac47f" name="Default Changelist" comment="" />
       <created>1626818415957</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1626818415957</updated>
+=======
+      <changelist id="c74b0696-c80b-4e81-a69f-4fc3af706ecf" name="Default Changelist" comment="" />
+      <created>1625612199082</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625612199082</updated>
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
+<<<<<<< Updated upstream
     <state x="906" y="263" width="1092" height="829" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1626818912163">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
@@ -147,5 +177,23 @@
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="768" y="256" key="new project wizard/0.0.2560.1410/2560.0.1920.1080@0.0.2560.1410" timestamp="1626816404676" />
+=======
+    <state x="645" y="441" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1625613549971">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="645" y="441" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1410/2560.0.1920.1080@0.0.2560.1410" timestamp="1625613549971" />
+    <state x="920" y="576" key="#com.intellij.ide.util.TreeFileChooserDialog" timestamp="1625613454493">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="920" y="576" key="#com.intellij.ide.util.TreeFileChooserDialog/0.0.2560.1410/2560.0.1920.1080@0.0.2560.1410" timestamp="1625613454493" />
+    <state x="971" y="541" key="FileChooserDialogImpl" timestamp="1625613569399">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="971" y="541" key="FileChooserDialogImpl/0.0.2560.1410/2560.0.1920.1080@0.0.2560.1410" timestamp="1625613569399" />
+    <state x="1008" y="700" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1625612837155">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="1008" y="700" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1410/2560.0.1920.1080@0.0.2560.1410" timestamp="1625612837155" />
+>>>>>>> Stashed changes
   </component>
 </project>
